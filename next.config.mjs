@@ -26,6 +26,15 @@ const nextConfig = {
         destination: "/partner-service-agreement",
         permanent: true,
       },
+      ...[
+        "/partner-service-agreement.pdf",
+        "/partner-service-agreement-v1.0.pdf",
+        "/partner-service-agreement-v1.1.pdf",
+      ].map((source) => ({
+        source,
+        destination: "/partner-service-agreement-v1.2.pdf",
+        permanent: true,
+      })),
     ]
   },
 }

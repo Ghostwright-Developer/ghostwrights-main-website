@@ -26,7 +26,7 @@ const steps = [
   {
     number: "4",
     title: "It goes live under your brand",
-    description: "Launch for $149, then $25/month for hosting, SSL, support, and ongoing updates. You stay focused on your client.",
+    description: "Launch for $150, then $25/month for hosting, SSL, support, and ongoing updates. You stay focused on your client.",
     icon: Rocket,
   },
 ]

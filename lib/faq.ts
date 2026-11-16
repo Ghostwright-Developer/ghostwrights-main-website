@@ -85,7 +85,7 @@ export const FAQ: FaqItem[] = [
   {
     question: "What does partner pricing look like?",
     answer:
-      "$149 setup per site, invoiced when the intake arrives; work starts once it's paid. Then $25 per active site per month, starting on the 1st of the month after the site goes live. The launch month is free. You get one bundled invoice on the 1st of each month, due by the 8th. Suggested retail is $199–$299 setup and $49–$79/month.",
+      "$150 setup per site, invoiced when the intake arrives; work starts once it's paid. Then $25 per active site per month, starting on the 1st of the month after the site goes live. The launch month is free. You get one bundled invoice on the 1st of each month, due by the 8th. Suggested retail is $199–$299 setup and $49–$79/month.",
   },
   {
     question: "How quickly can a website be delivered?",
