@@ -1,5 +1,5 @@
 export const OFFER = {
-  setupFee: 149,
+  setupFee: 150,
   monthlyFee: 25,
   extraRound: 75,
   lateFee: 15,

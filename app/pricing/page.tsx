@@ -11,12 +11,12 @@ import { Button } from "@/components/ui/button"
 import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card"
 
 export const metadata: Metadata = {
-  title: `Partner Pricing: $149 Setup, $25/Month | ${BRAND.short}`,
-  description: "Pay $149 per site when you greenlight the build, then $25/month per active site once it's live. No long-term contracts.",
+  title: `Partner Pricing: $150 Setup, $25/Month | ${BRAND.short}`,
+  description: "Pay $150 per site when you greenlight the build, then $25/month per active site once it's live. No long-term contracts.",
   openGraph: {
     images: [{ url: "/og-image.png", width: 1200, height: 630, alt: "Ghostwright Web Development. Websites built under your name." }],
-    title: `Partner Pricing: $149 Setup, $25/Month | ${BRAND.short}`,
-    description: "Pay $149 per site when you greenlight the build, then $25/month per active site once it's live. No long-term contracts.",
+    title: `Partner Pricing: $150 Setup, $25/Month | ${BRAND.short}`,
+    description: "Pay $150 per site when you greenlight the build, then $25/month per active site once it's live. No long-term contracts.",
   },
 }
 

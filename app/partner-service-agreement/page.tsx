@@ -68,7 +68,8 @@ const terms = [
   },
   {
     topic: "Revisions",
-    summary: "Two rounds, 3-business-day turnaround, $75 per extra round.",
+    summary:
+      "Two rounds, 3-business-day turnaround, $75 per extra round. A round can include big changes, like adding or removing images or services.",
   },
   {
     topic: "Edits",
@@ -80,7 +81,7 @@ const terms = [
   },
   {
     topic: "Contact forms",
-    summary: "Each form uses a free-to-start EmailJS account owned by your client.",
+    summary: "Each form uses an EmailJS account owned by your client.",
   },
   {
     topic: "Images",
@@ -103,6 +104,11 @@ const terms = [
     summary: "While the agreement is in effect, we never solicit, market to, or upsell your clients.",
   },
   {
+    topic: "Portfolio",
+    summary:
+      "We may show a site, with a link, and the client's business name and logo in our portfolio. You can withdraw permission at any time by written notice.",
+  },
+  {
     topic: "Communication options",
     summary:
       "Fully white-label (default), or we work with your clients directly as your web team from an email address on your domain. Change any time by written notice.",
@@ -114,11 +120,12 @@ const terms = [
   {
     topic: "Ending the agreement",
     summary:
-      "You can end it on 30 days' written notice. We can end it without cause on 60 days' written notice; you can complete a buyout during that notice period and for 30 days after it ends.",
+      "You can end it on 30 days' notice. We can end it on 60 days' notice, and you can buy out any site during that notice period.",
   },
   {
     topic: "Buyout",
-    summary: "Active site: any time. Cancelled site: we must receive your written buyout request, signed buyout terms, and $3,000 in cleared funds within 30 days after receiving your cancellation notice. Delivery is within 10 business days after signed terms and cleared payment. Buying an active site's code does not cancel hosting or its monthly fee. See the agreement.",
+    summary:
+      "Active site: any time. Cancelled site: within 30 days of your cancellation notice. Pricing is in the agreement.",
   },
   {
     topic: "Fee changes",
@@ -141,12 +148,12 @@ export default function PartnerServiceAgreementPage() {
             </h1>
             <p className="text-lg text-muted-foreground leading-relaxed">
               Every partner signs our Partner Service Agreement once, before we start. We don&apos;t countersign.
-              Version 1.1 takes effect when we confirm receipt of your signed copy by email.
+              Version 1.2 takes effect when we confirm receipt of your signed copy by email.
             </p>
             <div className="mt-8">
               <Button size="lg" asChild>
                 <a
-                  href="/partner-service-agreement.pdf"
+                  href="/partner-service-agreement-v1.2.pdf"
                   download
                   aria-label="Download the Partner Service Agreement PDF"
                 >
@@ -237,7 +244,7 @@ export default function PartnerServiceAgreementPage() {
           <Reveal as="div" className="max-w-3xl mx-auto text-center">
             <Button size="lg" asChild>
               <a
-                href="/partner-service-agreement.pdf"
+                href="/partner-service-agreement-v1.2.pdf"
                 download
                 aria-label="Download the Partner Service Agreement PDF"
               >
