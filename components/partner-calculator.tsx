@@ -69,7 +69,7 @@ export function PartnerCalculator() {
       <div className="grid gap-6 sm:grid-cols-3">
         <label className="space-y-3 text-sm font-medium">
           <span className="flex justify-between">Your retail monthly price <strong className="text-primary">${retailMonthly}</strong></span>
-          <input aria-label="Your retail monthly price" type="range" min="25" max="149" step="1" value={retailMonthly} onChange={(event) => setRetailMonthly(Number(event.target.value))} className="w-full accent-[#179ec7]" />
+          <input aria-label="Your retail monthly price" type="range" min="25" max="150" step="1" value={retailMonthly} onChange={(event) => setRetailMonthly(Number(event.target.value))} className="w-full accent-[#179ec7]" />
         </label>
         <label className="space-y-3 text-sm font-medium">
           <span className="flex justify-between">Your retail setup price <strong className="text-primary">${retailSetup}</strong></span>
